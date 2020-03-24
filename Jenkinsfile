@@ -22,3 +22,4 @@ node {
         sh "docker push becram/build-container:latest"
         sh "docker push becram/build-container:$BUILD_NUMBER"
     }
+}
