@@ -1,4 +1,10 @@
-node {
+pipeline {
+   agent {
+       docker {
+              image 'docker:dind'
+          }
+    }
+
     stage('Checkout') {
         checkout scm
     }
