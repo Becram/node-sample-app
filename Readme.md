@@ -15,3 +15,5 @@ docker-compose run app npm test
 ## License
 
 See [Licence.md](Licence.md) (MIT)
+
+Added pull request
